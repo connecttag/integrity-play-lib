@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "org.connecttag.libs.kotlin"
-version = "1.0.5"
+version = "1.0.6"
 
 android {
     namespace = "org.connecttag.lib.integrity"
@@ -61,7 +61,7 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "org.connecttag.libs.kotlin"
                 artifactId = "integrity-play-lib"
-                version = "1.0.5"
+                version = "1.0.6"
 
                 pom {
                     name.set("ConnectTag Integrity Play Lib")
